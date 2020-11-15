@@ -18,7 +18,7 @@
 
   2.  Navbar
 
-      2.1 Navbar Desctop
+      2.1 Navbar desktop
       2.2 Navbar Mobile
       2.3 Navbar Fixed
 
@@ -67,21 +67,21 @@ body {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #23a592;
+  background: #951284;
 }
 
 ::selection {
-  background-color: #23a592;
+  background-color: #951284;
   color: #fff;
 }
 
 -webkit-::selection {
-  background-color: #23a592;
+  background-color: #951284;
   color: #fff;
 }
 
 ::-moz-selection {
-  background-color: #23a592;
+  background-color: #951284;
   color: #fff;
 }
 
@@ -123,7 +123,7 @@ h2 span:before,
   height: 0.4rem;
   width: 3rem;
   transform: rotate(-2deg);
-  background-color: #23a592;
+  background-color: #951284;
 }
 
 h3,
@@ -208,7 +208,7 @@ ul {
 }
 
 a {
-  color: #23a592;
+  color: #951284;
   -webkit-transition: color 0.3s ease-out;
   -o-transition: color 0.3s ease-out;
   transition: color 0.3s ease-out;
@@ -216,7 +216,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #23a592;
+  color: #951284;
   outline: none;
 }
 
@@ -256,7 +256,7 @@ textarea.form-control {
 }
 
 .form-control:focus {
-  border-color: #23a592;
+  border-color: #951284;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -276,7 +276,7 @@ textarea.form-control {
 }
 
 label.error {
-  border-color: #23a592;
+  border-color: #951284;
   padding: 9px 0 0 22px;
   font-size: 0.9rem;
 }
@@ -298,7 +298,7 @@ label.error {
   font-family: "Montserrat", sans-serif;
   position: relative;
   display: inline-block;
-  border: 0.2em solid #23a592;
+  border: 0.2em solid #951284;
   border-radius: 30px;
   padding: 1.2em 2.4em 1.15em;
   font-size: 0.875em;
@@ -308,7 +308,7 @@ label.error {
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #23a592;
+  background-color: #951284;
   border-width: 1px;
   -webkit-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important;
@@ -319,7 +319,7 @@ label.error {
 .btn:active {
   color: #000;
   background-color: transparent;
-  border-color: #23a592;
+  border-color: #000000;
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: none !important;
@@ -356,7 +356,7 @@ label.error {
 /* 1.5 Icons */
 
 ion-icon {
-  color: #23a592;
+  color: #951284;
   font-size: 3.8rem;
   --ionicon-stroke-width: 17px;
 }
@@ -366,8 +366,8 @@ ion-icon {
   display: inline-block;
   width: 5.15rem;
   height: 5.15rem;
-  background-color: #23a592;
-  border-color: #23a592;
+  background-color: #951284;
+  border-color: #951284;
   border-radius: 50%;
   transition: all 0.3s ease;
 }
@@ -421,7 +421,7 @@ ion-icon {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-color: #23a592;
+  background-color: #951284;
   opacity: 0.6;
   position: absolute;
   top: 0;
@@ -474,7 +474,7 @@ ion-icon {
 }
 
 .bg-primary {
-  background: #23a592 !important;
+  background: #951284 !important;
   color: #fff;
 }
 
@@ -497,7 +497,7 @@ ion-icon {
 }
 
 .text-primary {
-  color: #23a592 !important;
+  color: #951284 !important;
 }
 
 /*-------------------------------------------------------------------------------
@@ -560,7 +560,7 @@ ion-icon {
   margin-bottom: 0;
 }
 
-.navbar-desctop .social-icons {
+.navbar-desktop .social-icons {
   margin: 0.25rem 0 0 -1.5rem;
 }
 
@@ -581,12 +581,12 @@ ion-icon {
 }
 
 .social-icons ion-icon:hover {
-  color: #23a592;
+  color: #951284;
 }
 
-/* 2.1 Navbar Desctop */
+/* 2.1 Navbar desktop */
 
-.navbar-desctop:before {
+.navbar-desktop:before {
   content: "";
   position: absolute;
   top: 0;
@@ -597,7 +597,7 @@ ion-icon {
   transition: all 0.3s ease;
 }
 
-.navbar-nav-desctop {
+.navbar-nav-desktop {
   font-family: "Montserrat", sans-serif;
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -610,32 +610,32 @@ ion-icon {
   padding: 0;
 }
 
-.navbar-nav-desctop li a {
+.navbar-nav-desktop li a {
   color: #343434;
   transition: all 0.3s;
 }
 
-.navbar-nav-desctop li a:hover {
+.navbar-nav-desktop li a:hover {
   text-decoration: none;
 }
 
-.navbar-nav-desctop > li {
+.navbar-nav-desktop > li {
   position: relative;
   float: left;
   margin-right: 2.1rem;
 }
 
-.navbar-nav-desctop > li > a {
+.navbar-nav-desktop > li > a {
   display: flex;
   align-items: center;
 }
 
-.navbar-nav-desctop > li > .active,
-.navbar-nav-desctop > li:hover > a {
+.navbar-nav-desktop > li > .active,
+.navbar-nav-desktop > li:hover > a {
   color: #767676;
 }
 
-.navbar-nav-desctop li ul {
+.navbar-nav-desktop li ul {
   opacity: 0;
   visibility: hidden;
   padding: 0.7rem 1.8rem;
@@ -648,23 +648,23 @@ ion-icon {
   transition: all 0.3s linear;
 }
 
-.navbar-nav-desctop li:hover ul {
+.navbar-nav-desktop li:hover ul {
   top: 100%;
   opacity: 1;
   visibility: visible;
 }
 
-.navbar-nav-desctop li ul li {
+.navbar-nav-desktop li ul li {
   margin: 1rem 0;
 }
 
-.navbar-nav-desctop li ul li a {
+.navbar-nav-desktop li ul li a {
   opacity: 0.5;
   display: block;
 }
 
-.navbar-nav-desctop li ul .active a,
-.navbar-nav-desctop li ul li:hover a {
+.navbar-nav-desktop li ul .active a,
+.navbar-nav-desktop li ul li:hover a {
   opacity: 1;
 }
 
@@ -910,7 +910,7 @@ ion-icon {
 }
 
 .progress-bar:before {
-  background: #23a592;
+  background: #951284;
   content: "";
   width: 0;
   height: 100%;
@@ -1058,7 +1058,7 @@ ion-icon {
 }
 
 .owl-dot.active span {
-  background-color: #23a592;
+  background-color: #951284;
 }
 
 .owl-nav {
@@ -1171,7 +1171,7 @@ footer a {
 }
 
 footer a:hover {
-  fill: #23a592 !important;
+  fill: #951284 !important;
   text-decoration: none;
 }
 
@@ -1233,5 +1233,5 @@ footer .social-icons ion-icon {
 .message {
   margin-bottom: 1rem;
   display: none;
-  color: #23a592;
+  color: #951284;
 }
